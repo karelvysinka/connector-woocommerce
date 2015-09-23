@@ -1,0 +1,23 @@
+Odoo Server Error
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 537, in _handle_exception
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 574, in dispatch
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 310, in _call_function
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\service\model.py", line 113, in wrapper
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 307, in checked_call
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 803, in __call__
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 403, in response_wrap
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\openerp\addons\web\controllers\main.py", line 952, in call_button
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\openerp\addons\web\controllers\main.py", line 940, in _call_kw
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\service\model.py", line 113, in wrapper
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\openerp\addons\web\controllers\main.py", line 939, in checked_call
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\api.py", line 241, in wrapper
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\openerp\addons\base\module\module.py", line 719, in install_from_urls
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\api.py", line 241, in wrapper
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\openerp\addons\base\module\module.py", line 651, in update_list
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\http.py", line 1310, in load_addons
+  File "C:\Program Files (x86)\Odoo 8.0-20150917\server\.\openerp\modules\module.py", line 80, in load_module
+  File "C:\Users\Administrator\AppData\Local\OpenERP S.A.\Odoo\addons\8.0\woocommerceerpconnect\__init__.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\OpenERP S.A.\Odoo\addons\8.0\woocommerceerpconnect\model\__init__.py", line 22, in <module>
+  File "C:\Users\Administrator\AppData\Local\OpenERP S.A.\Odoo\addons\8.0\woocommerceerpconnect\model\backend.py", line 23, in <module>
+ImportError: No module named woocommerce
